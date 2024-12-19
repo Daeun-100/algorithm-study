@@ -4,25 +4,22 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
-  
-   
+    const map = new Map()
     for(let i = 0 ; i < nums.length ; i ++){
-        for(let j =i+1 ; j < nums.length ; j ++){
-            const sum = nums[i] + nums[j];
-            if(sum === target){
-                return [i,j];
-            }
-         
+        map.set(nums[i],i);
+    }
+
+    for(let i = 0 ; i < nums.length ; i ++){
+        const curNumber = nums[i];
+        const complement = target - curNumber;
+        if(map.has(complement) && map.get(complement) !== i ){
+            return [i,map.get(complement)];
         }
     }
 };
 
-// 더해서 target이 되는 2개의 숫자를 찾기
-// 숫자는 무조건 2개를 더해야함
-// 1. 일일히 다 확인
-// 배열 정렬
-// index를 기록해야함
-// - index 0 , 1  -> 0 , 2 -> ... -> 0 , nums.length -1
-// if(더한거 > target) 돌아와서 index 1, 2 부터 시작
-// if(더한거  === target ) return index
-// 숫자의 index를 찾기
+// 이중 반복은 시간복잡도 O(n)
+// 시간복잡도를 줄일 수 있는 방법은 없을까? -> 반복문을 하나 줄여야함 -> 숫자와 index를 저장하는 다른 저장소 필요 -> Map
+// 공간복잡도/ 이중 반복은 시간복잡도 O(n)
+// 시간복잡도를 줄일 수 있는 방법은 없을까? -> 반복문을 하나 줄여야함 -> 숫자와 index를 저장하는 다른 저장소 필요 -> Map
+// 공간복잡도는 O(n) 으로 늘어남
