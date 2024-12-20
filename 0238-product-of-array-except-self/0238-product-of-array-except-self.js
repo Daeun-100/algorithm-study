@@ -3,36 +3,25 @@
  * @return {number[]}
  */
 var productExceptSelf = function(nums) {
-    const reverseArr=[...nums].reverse()
-    const productArr=[]
-    const prefixArr=[]
-    const suffixArr=[]
+    //곱셈의 결과만 알면 되니까 각자 배열 따로 안만들어도됨!
+    let n = nums.length
+    let productArr = new Array(n).fill(1);
 
-    nums.forEach((num,index)=>{
-        if(index === 0) return prefixArr.push(num) 
-        prefixArr.push(prefixArr[index-1] * nums[index])
-    })
-
-    reverseArr.forEach((num,index)=>{
-        if(index === 0) return suffixArr.push(num)
-        suffixArr.push(suffixArr[index-1] * reverseArr[index])
-    })
-    suffixArr.reverse()
-    
-    for(let i = 0  ; i < nums.length ; i++){
-        if(i === 0) {
-            productArr.push(suffixArr[i+1])
-            continue;
-        }
-
-        if(i === nums.length-1){
-            productArr.push(prefixArr[i-1])
-            continue;
-        }
-
-        productArr.push(prefixArr[i-1] * suffixArr[i+1])
+    //곱셈을 원해 -> 근데 특정자리는 곱셈을 원하지 않아 -> 곱하기 1 로 만듬
+    let prefix=1
+    for(let i = 0 ; i < n; i++){
+        productArr[i] = prefix
+        prefix *= nums[i]
     }
+    console.log(productArr)
+    let suffix=1
+    for(let i = 0 ; i < n; i++){
+        productArr[n-1-i] *= suffix
+        suffix *= nums[n-1-i]
+    }
+
     return productArr
+
 };
 
 //문제에 접미,접두가 왜 나왔을까?
