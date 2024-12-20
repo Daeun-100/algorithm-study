@@ -13,11 +13,11 @@ var productExceptSelf = function(nums) {
         productArr[i] = prefix
         prefix *= nums[i]
     }
-    console.log(productArr)
-    let suffix=1
-    for(let i = 0 ; i < n; i++){
-        productArr[n-1-i] *= suffix
-        suffix *= nums[n-1-i]
+
+    let suffix = 1;
+    for (let i = n - 1; i >= 0; i--) {
+        productArr[i] *= suffix;
+        suffix *= nums[i];
     }
 
     return productArr
