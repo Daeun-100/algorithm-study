@@ -3,16 +3,23 @@
  * @return {number}
  */
 var majorityElement = function(nums) {
-    let map = new Map();
-    for(let i =0;i<nums.length;i++){
-        if(!map.has(nums[i])){
-            if( 1 > nums.length/2) return nums[i]
-            map.set(nums[i],1)
+    let num;
+    let count=0;
+    for(let i=0;i<nums.length;i++){
+        if(count===0) {
+            num=nums[i]
+            count=1;
+        }else if(nums[i]===num){
+            count+=1;
         }else{
-            const currentCount = map.get(nums[i])
-            if(currentCount+1 > nums.length/2) return nums[i]
-            map.set(nums[i],currentCount+1)
+            count-=1;
         }
     }
+    return num
 
 };
+
+//1.map을 만들어서 진행
+//2. 개수가 n/2인지만 알면됨 -> nums[0] 부터 검사
+//아!  majority element 항상 있다고 했으므로 마지막에 남는건 무조건  majority element
+// 처음부터 반복 안돌아도됨
