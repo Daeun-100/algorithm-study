@@ -3,8 +3,7 @@
  * @return {number[][]}
  */
 var merge = function (intervals) {
-    intervals.sort(([start1, end1], [start2, end3]) => start1 - start2)
-
+    intervals.sort((a, b) => a[0] - b[0]);
     const resultArr = []
     let currentInterval = intervals[0]
 
