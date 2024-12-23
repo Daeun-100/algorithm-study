@@ -12,12 +12,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/Daeun-100/algorithm-study/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Daeun-100/algorithm-study/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0169-majority-element](https://github.com/Daeun-100/algorithm-study/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/Daeun-100/algorithm-study/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Daeun-100/algorithm-study/tree/master/0238-product-of-array-except-self) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Daeun-100/algorithm-study/tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/Daeun-100/algorithm-study/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/Daeun-100/algorithm-study/tree/master/0217-contains-duplicate) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -34,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/Daeun-100/algorithm-study/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Daeun-100/algorithm-study/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/Daeun-100/algorithm-study/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/Daeun-100/algorithm-study/tree/master/0217-contains-duplicate) |
 ## Prefix Sum
 |  |
 | ------- |
