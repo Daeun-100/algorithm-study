@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0057-insert-interval](https://github.com/Daeun-100/algorithm-study/tree/master/0057-insert-interval) |
 | [0075-sort-colors](https://github.com/Daeun-100/algorithm-study/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Daeun-100/algorithm-study/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/Daeun-100/algorithm-study/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/Daeun-100/algorithm-study/tree/master/0134-gas-station) |
 | [0169-majority-element](https://github.com/Daeun-100/algorithm-study/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Daeun-100/algorithm-study/tree/master/0217-contains-duplicate) |
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Daeun-100/algorithm-study/tree/master/0001-two-sum) |
+| [0128-longest-consecutive-sequence](https://github.com/Daeun-100/algorithm-study/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/Daeun-100/algorithm-study/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Daeun-100/algorithm-study/tree/master/0217-contains-duplicate) |
 ## Dynamic Programming
@@ -61,4 +63,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/Daeun-100/algorithm-study/tree/master/0011-container-with-most-water) |
 | [0134-gas-station](https://github.com/Daeun-100/algorithm-study/tree/master/0134-gas-station) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Daeun-100/algorithm-study/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
