@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Daeun-100/algorithm-study/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Daeun-100/algorithm-study/tree/master/0242-valid-anagram) |
 | [0409-longest-palindrome](https://github.com/Daeun-100/algorithm-study/tree/master/0409-longest-palindrome) |
+| [0424-longest-repeating-character-replacement](https://github.com/Daeun-100/algorithm-study/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Daeun-100/algorithm-study/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0525-contiguous-array](https://github.com/Daeun-100/algorithm-study/tree/master/0525-contiguous-array) |
 ## Dynamic Programming
@@ -98,10 +99,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Daeun-100/algorithm-study/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/Daeun-100/algorithm-study/tree/master/0242-valid-anagram) |
 | [0409-longest-palindrome](https://github.com/Daeun-100/algorithm-study/tree/master/0409-longest-palindrome) |
+| [0424-longest-repeating-character-replacement](https://github.com/Daeun-100/algorithm-study/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Daeun-100/algorithm-study/tree/master/0438-find-all-anagrams-in-a-string) |
 ## Sliding Window
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Daeun-100/algorithm-study/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/Daeun-100/algorithm-study/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Daeun-100/algorithm-study/tree/master/0438-find-all-anagrams-in-a-string) |
 <!---LeetCode Topics End-->
