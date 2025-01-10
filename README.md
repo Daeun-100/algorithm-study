@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Daeun-100/algorithm-study/tree/master/0015-3sum) |
 | [0039-combination-sum](https://github.com/Daeun-100/algorithm-study/tree/master/0039-combination-sum) |
 | [0049-group-anagrams](https://github.com/Daeun-100/algorithm-study/tree/master/0049-group-anagrams) |
+| [0054-spiral-matrix](https://github.com/Daeun-100/algorithm-study/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/Daeun-100/algorithm-study/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Daeun-100/algorithm-study/tree/master/0057-insert-interval) |
 | [0075-sort-colors](https://github.com/Daeun-100/algorithm-study/tree/master/0075-sort-colors) |
@@ -107,4 +108,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Daeun-100/algorithm-study/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/Daeun-100/algorithm-study/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Daeun-100/algorithm-study/tree/master/0438-find-all-anagrams-in-a-string) |
+## Matrix
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/Daeun-100/algorithm-study/tree/master/0054-spiral-matrix) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/Daeun-100/algorithm-study/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
