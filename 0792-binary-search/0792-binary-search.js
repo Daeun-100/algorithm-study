@@ -9,7 +9,7 @@ var search = function (nums, target) {
     let index = Math.floor(nums.length / 2)
     const set = new Set()
     do {
-        console.log(nums[index])
+       
         if (nums[index] === target) return index
         if (nums[index] < target) {
             set.add(nums[index])
