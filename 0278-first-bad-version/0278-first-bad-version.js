@@ -18,22 +18,19 @@ var solution = function (isBadVersion) {
      * @return {integer} The first bad version
      */
     return function (n) {
-        let begin = 0;
-        let end = n - 1
+        let begin = 1;
+        let end = n 
         while (begin <= end) {
-            let current = Math.floor((begin + end) / 2)
-            if (!isBadVersion(current+1)) {
-                begin=current+1
+            let current = Math.floor((begin + end) / 2) 
+            if (!isBadVersion(current)) {
+                begin = current + 1
             } else {
                 //true인 경우 젤 낮은 true값 찾아야함
-                while (current >= 0 && isBadVersion(current+1)) {
-                    current -= 1
-                }
-                return current + 2
-
+                if (current===1 || !isBadVersion(current-1)  ) return current
+                end = current - 1
             }
         }
-        
+
 
     };
 };
