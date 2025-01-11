@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Daeun-100/algorithm-study/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Daeun-100/algorithm-study/tree/master/0238-product-of-array-except-self) |
 | [0525-contiguous-array](https://github.com/Daeun-100/algorithm-study/tree/master/0525-contiguous-array) |
+| [0792-binary-search](https://github.com/Daeun-100/algorithm-study/tree/master/0792-binary-search) |
 ## Hash Table
 |  |
 | ------- |
@@ -119,4 +120,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Daeun-100/algorithm-study/tree/master/0054-spiral-matrix) |
+## Binary Search
+|  |
+| ------- |
+| [0792-binary-search](https://github.com/Daeun-100/algorithm-study/tree/master/0792-binary-search) |
 <!---LeetCode Topics End-->
