@@ -23,13 +23,10 @@ var solution = function (isBadVersion) {
         while (begin <= end) {
             let current = Math.floor((begin + end) / 2)
             if (!isBadVersion(current+1)) {
-                console.log("false")
                 begin=current+1
             } else {
                 //true인 경우 젤 낮은 true값 찾아야함
-                console.log("true")
                 while (current >= 0 && isBadVersion(current+1)) {
-                    
                     current -= 1
                 }
                 return current + 2
