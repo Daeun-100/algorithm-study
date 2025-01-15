@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Daeun-100/algorithm-study/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Daeun-100/algorithm-study/tree/master/0238-product-of-array-except-self) |
 | [0525-contiguous-array](https://github.com/Daeun-100/algorithm-study/tree/master/0525-contiguous-array) |
+| [0542-01-matrix](https://github.com/Daeun-100/algorithm-study/tree/master/0542-01-matrix) |
 | [0792-binary-search](https://github.com/Daeun-100/algorithm-study/tree/master/0792-binary-search) |
 ## Hash Table
 |  |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Daeun-100/algorithm-study/tree/master/0005-longest-palindromic-substring) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Daeun-100/algorithm-study/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0542-01-matrix](https://github.com/Daeun-100/algorithm-study/tree/master/0542-01-matrix) |
 ## Two Pointers
 |  |
 | ------- |
@@ -117,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/Daeun-100/algorithm-study/tree/master/0036-valid-sudoku) |
 | [0054-spiral-matrix](https://github.com/Daeun-100/algorithm-study/tree/master/0054-spiral-matrix) |
+| [0542-01-matrix](https://github.com/Daeun-100/algorithm-study/tree/master/0542-01-matrix) |
 ## Simulation
 |  |
 | ------- |
@@ -131,4 +134,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/Daeun-100/algorithm-study/tree/master/0278-first-bad-version) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0542-01-matrix](https://github.com/Daeun-100/algorithm-study/tree/master/0542-01-matrix) |
 <!---LeetCode Topics End-->
