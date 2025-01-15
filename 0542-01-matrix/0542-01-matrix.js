@@ -4,47 +4,46 @@
  */
 var updateMatrix = function (mat) {
     let start = []
+    const rows = mat.length;
+    const cols = mat[0].length;
     let output = mat.map((arr, i) => arr.map((num, j) => {
         if (num === 0) {
             start.push([i, j])
             return 0
         }
-        return null
+        return Infinity
     }))
 
     let queue = start
-    let visited = new Set()
+
+    const directions = [
+        [-1, 0], // 위
+        [1, 0],  // 아래
+        [0, -1], // 왼쪽
+        [0, 1]   // 오른쪽
+    ];
+
     while (queue.length > 0) {
-        let [i, j] = queue.shift()
-        let string = i + "," + j
-        let adjacent = []
+        let [r, c] = queue.shift()
+        //string을 만들고 set으로 확인하는 작업이 오래걸림
+        // let string = i + "," + j
+   
 
-        if (visited.has(string)) continue
-        visited.add(string)
+        for (const [dr, dc] of directions) {
+            const newRow = r + dr;
+            const newCol = c + dc;
 
-        if (i - 1 >= 0) {
-            let nextString = (i - 1) + "," + j
-            if (!visited.has(nextString)) queue.push([i - 1, j])
-            if (output[i - 1][j] !== null) adjacent.push(output[i - 1][j])
-        }
-        if (j - 1 >= 0) {
-            let nextString = i  + "," + (j-1)
-            if (!visited.has(nextString)) queue.push([i, j - 1])
-            if (output[i][j - 1] !== null) adjacent.push(output[i][j - 1])
-        }
-        if (i + 1 < mat.length) {
-             let nextString = (i + 1) + "," + j
-            if (!visited.has(nextString)) queue.push([i + 1, j])
-            if (output[i + 1][j] !== null) adjacent.push(output[i + 1][j])
-        }
-        if (j + 1 < mat[0].length) {
-            let nextString = i  + "," + (j+1)
-            if (!visited.has(nextString)) queue.push([i, j + 1])
-            if (output[i][j + 1] !== null) adjacent.push(output[i][j + 1])
+            // 유효한 범위 확인 및 거리 갱신
+            if (
+                newRow >= 0 && newRow < rows &&
+                newCol >= 0 && newCol < cols &&
+                output[newRow][newCol] > output[r][c] + 1
+            ) {
+                output[newRow][newCol] = output[r][c] + 1;
+                queue.push([newRow, newCol]);
+            }
         }
 
-        if (output[i][j] === 0) continue
-        output[i][j] = Math.min(...adjacent) + 1
     }
     return output
 
