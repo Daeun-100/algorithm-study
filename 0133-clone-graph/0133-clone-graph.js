@@ -12,9 +12,6 @@
  */
 var cloneGraph = function (node) {
     if (node === null) return null
-
-    //일단 탐색을 해서 node를 먼저 생성해?
-    //아니면 탐색을 하면서 같이 node를 생성해?
     let stack = [node]
     let newNodes = {}
     let set = new Set()
