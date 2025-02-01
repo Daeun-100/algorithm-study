@@ -12,37 +12,21 @@
  * @param {TreeNode} q
  * @return {TreeNode}
  */
-const searchParents = (val, root, parents) => {
-    parents.push(root.val)
-    if (val === root.val) return
-    else if (val < root.val) root = root.left
-    else if (val > root.val) root = root.right
-
-    searchParents(val, root, parents)
-}
-
-const findLCA = (val, root, parents, answer, count) => {
-
-    if (parents.includes(root.val)) {
-        answer.push(root)
-        count -= 1
-        if (count === 0) return
-    }
-    if (val === root.val) return
-    else if (val < root.val) root = root.left
-    else if (val > root.val) root = root.right
-
-    findLCA(val, root, parents, answer, count)
-
-}
 
 var lowestCommonAncestor = function (root, p, q) {
-    let parents = []
-    searchParents(p.val, root, parents)
-
-    let answer = []
-    findLCA(q.val, root, parents, answer, parents.length)
-
-    return answer.at(-1)
+    while (root) {
+        if (p.val < root.val && q.val < root.val) {
+            // p, q가 모두 현재 노드의 왼쪽에 있음 -> 왼쪽으로 이동
+            root = root.left;
+        } else if (p.val > root.val && q.val > root.val) {
+            // p, q가 모두 현재 노드의 오른쪽에 있음 -> 오른쪽으로 이동
+            root = root.right;
+        } else {
+            // p, q가 다른 방향에 있거나 하나가 root와 같은 경우 -> 현재 root가 LCA
+            return root;
+        }
+    }
+    return null;
 };
   //공통부모는 무조건 존재함
+  //첫번째 방법은 두번의 재귀 호출 사용 -> 한번의 탐색만으로도 가능
