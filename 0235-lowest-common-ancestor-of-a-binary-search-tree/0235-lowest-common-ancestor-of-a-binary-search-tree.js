@@ -21,16 +21,18 @@ const searchParents = (val, root, parents) => {
     searchParents(val, root, parents)
 }
 
-const findLCA = (val, root, parents, answer) => {
+const findLCA = (val, root, parents, answer, count) => {
 
     if (parents.includes(root.val)) {
         answer.push(root)
+        count -= 1
+        if (count === 0) return
     }
     if (val === root.val) return
     else if (val < root.val) root = root.left
     else if (val > root.val) root = root.right
 
-    findLCA(val, root, parents, answer)
+    findLCA(val, root, parents, answer, count)
 
 }
 
@@ -39,7 +41,7 @@ var lowestCommonAncestor = function (root, p, q) {
     searchParents(p.val, root, parents)
 
     let answer = []
-    findLCA(q.val, root, parents, answer)
+    findLCA(q.val, root, parents, answer, parents.length)
 
     return answer.at(-1)
 };
