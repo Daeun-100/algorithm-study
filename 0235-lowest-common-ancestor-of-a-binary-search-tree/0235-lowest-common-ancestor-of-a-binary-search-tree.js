@@ -24,10 +24,7 @@ const searchParents = (val, root, parents) => {
 const findLCA = (val, root, parents, answer) => {
 
     if (parents.includes(root.val)) {
-        if (answer.length !== 0) {
-            answer.pop()
-        }
-        answer.push(root)
+        answer.node = root
     }
     if (val === root.val) return
     else if (val < root.val) root = root.left
@@ -41,9 +38,9 @@ var lowestCommonAncestor = function (root, p, q) {
     let parents = []
     searchParents(p.val, root, parents)
 
-    let answer = []
+    let answer = { node: null }
     findLCA(q.val, root, parents, answer)
 
-    return answer[0]
+    return answer.node
 };
   //공통부모는 무조건 존재함
