@@ -23,6 +23,3 @@ var lowestCommonAncestor = function (root, p, q) {
 
     return root
 };
-  //공통부모는 무조건 존재함
-  //첫번째 방법은 두번의 재귀 호출 사용 -> 한번의 탐색만으로도 가능
-  
