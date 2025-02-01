@@ -144,8 +144,21 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/Daeun-100/algorithm-study/tree/master/0133-clone-graph) |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Daeun-100/algorithm-study/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 ## Graph
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/Daeun-100/algorithm-study/tree/master/0133-clone-graph) |
+## Tree
+|  |
+| ------- |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Daeun-100/algorithm-study/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Daeun-100/algorithm-study/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Daeun-100/algorithm-study/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 <!---LeetCode Topics End-->
