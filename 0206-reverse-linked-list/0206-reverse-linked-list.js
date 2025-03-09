@@ -17,7 +17,6 @@ var reverseList = function (head) {
         nodeStore.push(cur)
         cur = cur.next
     }
-    console.log(nodeStore)
 
     nodeStore.reverse()
 
