@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Daeun-100/algorithm-study/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/Daeun-100/algorithm-study/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/Daeun-100/algorithm-study/tree/master/0134-gas-station) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Daeun-100/algorithm-study/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0169-majority-element](https://github.com/Daeun-100/algorithm-study/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Daeun-100/algorithm-study/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/Daeun-100/algorithm-study/tree/master/0217-contains-duplicate) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Daeun-100/algorithm-study/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Daeun-100/algorithm-study/tree/master/0189-rotate-array) |
 ## String
 |  |
@@ -177,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Daeun-100/algorithm-study/tree/master/0020-valid-parentheses) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Daeun-100/algorithm-study/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0232-implement-queue-using-stacks](https://github.com/Daeun-100/algorithm-study/tree/master/0232-implement-queue-using-stacks) |
 ## Design
 |  |
