@@ -29,7 +29,6 @@ var evalRPN = function (tokens) {
             const number2 = numberStack.pop()
             const number1 = numberStack.pop()
             const result = calculate(number1, char, number2)
-            console.log(result)
             numberStack.push(result)
         }
     }
