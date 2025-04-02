@@ -12,25 +12,26 @@
  * @param {function} isBadVersion()
  * @return {function}
  */
-var solution = function (isBadVersion) {
+var solution = function(isBadVersion) {
     /**
      * @param {integer} n Total versions
      * @return {integer} The first bad version
      */
-    return function (n) {
-        let begin = 1;
-        let end = n
-        while (begin < end) {
-            let current = Math.floor((begin + end) / 2)
-            if (!isBadVersion(current)) {
-                begin = current + 1
+    return function(n) {
+          let left = 1;
+        let right = n;
+
+        while (left < right) {
+            let mid = Math.floor((left + right) / 2);
+
+            if (isBadVersion(mid)) {
+                right = mid;  // badVersion일 경우 왼쪽으로 이동
             } else {
-                //true인 경우 젤 낮은 true값 찾아야함
-                end = current
+                left = mid + 1;  // 정상일 경우 오른쪽으로 이동
             }
         }
-        return begin
 
-
+        return left;  // left == right가 될 때가 첫 bad version
+        
     };
 };
